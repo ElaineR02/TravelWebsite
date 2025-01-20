@@ -1,0 +1,252 @@
+body{
+    margin : 0;
+    padding : 0px;
+}
+
+#wrap{
+    border : solid 0px black;
+    width : 100%;
+    margin : 0 auto;
+}
+
+header{
+    border : solid 0px #553698;
+    width: 100vw;
+    height : 60px;
+    display: flex;
+    justify-content: space-between;
+    background: #553698;
+}
+
+#logo{
+    border : solid 0px #553698;
+    font-family: Sarina;
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    display: flex;
+}
+
+nav{
+    border : solid 1px #553698;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+    display: flex;
+    background: #553698;
+}
+
+nav ul a:link{
+    text-decoration: none;
+}
+
+nav ul a li{
+    border : solid 1px #553698; 
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#hero{
+    height : 70vh;
+    width: 100vw;
+
+    display : flex;
+    align-items: stretch;
+    background: #553698;
+}
+
+#heroContent{
+    width : 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.heroText{
+    text-align:left;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: white;
+    flex-grow: 5;
+    font-family: Sonsie;
+    font-size: 130%;
+    opacity: 0.8;
+}
+
+#heroActions{
+    flex-grow: 1;
+
+    display : flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.heroImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
+    width: 100vw;
+    height : 70vh;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.actionBTN{
+    border : solid 1px white;
+    border-radius : 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+    height : 60px;
+    width: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 450px 0 0 0;
+    font-family: Sonsie;
+}
+
+#mainArea{
+    border : solid 0px black;
+    min-height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bigBox{
+    border : solid 0px white;
+    min-height: 400px;
+    min-width: 90%;
+}
+
+.smBox{
+    border : solid 0px white;
+    min-height : 350px;
+    width : 50%;
+    
+}
+
+.cityPic{
+    border : solid 0px black;
+    
+
+    display : flex;
+    justify-content: center;
+    align-items : center;
+
+}
+
+.cityName{
+    border : solid 0px black;
+    text-align :right;
+    font-family: Saira;
+    color: black;
+}
+
+.cityPicImg{
+    width : 100%;
+}
+
+.tibet{
+    width : 200vw;
+    height: 55vh;
+    justify-content: center;
+}
+
+
+footer{
+    background : #383698;
+    opacity: 88%;
+    width: 100vw;
+    min-height : 300px;
+    height : 65vh;
+}
+
+.footerPic{
+    border : solid 0px black;
+    
+
+    display : flex;
+    justify-content: left;
+    align-items : center;
+}
+
+.footerPicImg{
+    margin: 40px;
+    width : 50%;
+}
+
+.footerText{
+    margin: 30px;
+    border : solid 0px white;
+    text-align :center;
+    font-family: Saira;
+    color: white;
+    font-size: 12px;
+
+    justify-content: center;
+}
+
+.mainBox{
+    width : 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mainText{
+    text-align:left;
+    position: absolute;
+    margin: 10%;
+    color: white;
+    flex-grow: 5;
+    font-size: 150%;
+    opacity: 0.9;
+    line-height: 3;
+}
+
+.mainPicEuro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/vienna.jpg");
+    width : 100vw;
+    height : 120vh;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position : relative;
+}
+
+.mainPicAsia{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tibetmain.jpg");
+    width : 100vw;
+    height : 120vh;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mainPicNA{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/NA.jpg");
+    width : 100vw;
+    height : 120vh;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
